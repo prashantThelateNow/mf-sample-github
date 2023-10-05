@@ -32,7 +32,7 @@ pnpm build
 bun build
 ```
 
-To server contents of build folder(for generated static files while build):
+To serve contents of build folder(for generated static files while build):
 
 ```bash
 npm run start:build
