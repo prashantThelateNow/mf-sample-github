@@ -8,11 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        "mindfire-text-red": "#f00",
+        "mindfire-text-black": "#3a3d41",
+        "mindfire-footer-border-color": "#eff0f1",
+        "mindfire-footer-text-color": "#819198",
+        "mindfire-content-p-text-color": "#7f8082",
       },
+      fontFamily: {
+        "nunito-sans": "Nunito Sans"
+      },
+      fontSize: {
+        "5.5xl": "3.25rem"
+      }
     },
   },
   plugins: [],
