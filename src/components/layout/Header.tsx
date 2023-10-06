@@ -6,8 +6,8 @@ const Header = () => {
     >
       <h1 className="text-5.5xl font-bold mb-[1.6px]">
         <p className="m-5 text-mindfire-text-black">
-          Welcome to Mindfire{" "}
-          <span className="text-mindfire-text-red">Open Source</span>
+        Mindfire | {" "}
+          <span className="text-mindfire-text-red">FOSS</span>
         </p>
       </h1>
       <h2 className="text-xl font-bold max-w-[1076px] tracking-[-0.72px] mx-auto text-mindfire-text-black/70">
